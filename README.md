@@ -11,10 +11,11 @@
 ```
 $ git clone https://github.com/toku345/webrick.git
 $ cd webrick
-$ ruby ./sample/sample.rb
+$ ruby ./sample/simple_server.rb
 ```
 
 ブラウザで `http://localhost:8000` を開く
+サーバーを止めるときは `Ctrl+C`
 
 内容
 ----
@@ -24,7 +25,9 @@ $ tree .
 .
 ├── README.md
 ├── sample
-│   └── sample.rb
+│   ├── public
+│   │   └── index.html
+│   └── simple_server.rb
 ├── webrick
 │   ├── accesslog.rb
 │   ├── cgi.rb
