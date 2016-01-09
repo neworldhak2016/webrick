@@ -2,8 +2,8 @@
 =================
 コードリーディング用に準備
 
-参照元: http://github.com/ruby/ruby
-コミット: 4b346b0e7159d95ed0afce0840adaf62d7c1381f
+* 参照元: http://github.com/ruby/ruby  
+* コミット: 4b346b0e7159d95ed0afce0840adaf62d7c1381f
 
 サンプル使い方
 ------------
@@ -14,7 +14,7 @@ $ cd webrick
 $ ruby ./sample/simple_server.rb
 ```
 
-ブラウザで `http://localhost:8000` を開く
+ブラウザで `http://localhost:8000` を開く  
 サーバーを止めるときは `Ctrl+C`
 
 内容
