@@ -8,10 +8,59 @@
 サンプル使い方
 ------------
 
-```ruby
+```
 $ git clone https://github.com/toku345/webrick.git
 $ cd webrick
 $ ruby ./sample/sample.rb
 ```
 
 ブラウザで `http://localhost:8000` を開く
+
+内容
+----
+
+```
+$ tree .
+.
+├── README.md
+├── sample
+│   └── sample.rb
+├── webrick
+│   ├── accesslog.rb
+│   ├── cgi.rb
+│   ├── compat.rb
+│   ├── config.rb
+│   ├── cookie.rb
+│   ├── htmlutils.rb
+│   ├── httpauth
+│   │   ├── authenticator.rb
+│   │   ├── basicauth.rb
+│   │   ├── digestauth.rb
+│   │   ├── htdigest.rb
+│   │   ├── htgroup.rb
+│   │   ├── htpasswd.rb
+│   │   └── userdb.rb
+│   ├── httpauth.rb
+│   ├── httpproxy.rb
+│   ├── httprequest.rb
+│   ├── httpresponse.rb
+│   ├── https.rb
+│   ├── httpserver.rb
+│   ├── httpservlet
+│   │   ├── abstract.rb
+│   │   ├── cgi_runner.rb
+│   │   ├── cgihandler.rb
+│   │   ├── erbhandler.rb
+│   │   ├── filehandler.rb
+│   │   └── prochandler.rb
+│   ├── httpservlet.rb
+│   ├── httpstatus.rb
+│   ├── httputils.rb
+│   ├── httpversion.rb
+│   ├── log.rb
+│   ├── server.rb
+│   ├── ssl.rb
+│   ├── utils.rb
+│   └── version.rb
+└── webrick.rb
+```
