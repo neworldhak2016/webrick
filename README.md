@@ -2,7 +2,7 @@
 =================
 コードリーディング用に準備
 
-参照元: https://github.com/ruby/ruby
+参照元: http://github.com/ruby/ruby
 コミット: 4b346b0e7159d95ed0afce0840adaf62d7c1381f
 
 サンプル使い方
