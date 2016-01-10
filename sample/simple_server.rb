@@ -5,7 +5,7 @@ if $0 == __FILE__
   root   = File.expand_path('../public', __FILE__)
   server = WEBrick::HTTPServer.new(Port: 8000, DocumentRoot: root)
 
-  server.mount_proc '/' do |req, res|
+  server.mount_proc '/yoho' do |req, res|
     res.body = 'YO-HO!!!'
   end
 
